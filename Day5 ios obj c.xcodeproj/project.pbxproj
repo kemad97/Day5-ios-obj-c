@@ -17,6 +17,7 @@
 		E1BA31F82DB2690A00307123 /* Day5_ios_obj_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA31F72DB2690A00307123 /* Day5_ios_obj_cTests.m */; };
 		E1BA32022DB2690A00307123 /* Day5_ios_obj_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA32012DB2690A00307123 /* Day5_ios_obj_cUITests.m */; };
 		E1BA32042DB2690A00307123 /* Day5_ios_obj_cUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA32032DB2690A00307123 /* Day5_ios_obj_cUITestsLaunchTests.m */; };
+		E1BA32162DB26F1A00307123 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BA32112DB26C9F00307123 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E1BA31FD2DB2690A00307123 /* Day5 ios obj cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day5 ios obj cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BA32012DB2690A00307123 /* Day5_ios_obj_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day5_ios_obj_cUITests.m; sourceTree = "<group>"; };
 		E1BA32032DB2690A00307123 /* Day5_ios_obj_cUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day5_ios_obj_cUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E1BA32112DB26C9F00307123 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BA32162DB26F1A00307123 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				E1BA31F62DB2690A00307123 /* Day5 ios obj cTests */,
 				E1BA32002DB2690A00307123 /* Day5 ios obj cUITests */,
 				E1BA31D92DB2690800307123 /* Products */,
+				E1BA32102DB26C9E00307123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +138,14 @@
 				E1BA32032DB2690A00307123 /* Day5_ios_obj_cUITestsLaunchTests.m */,
 			);
 			path = "Day5 ios obj cUITests";
+			sourceTree = "<group>";
+		};
+		E1BA32102DB26C9E00307123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA32112DB26C9F00307123 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
